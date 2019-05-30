@@ -7,7 +7,7 @@
           <img
             class="gallery-slideshow__container__image__img"
             @click.stop="onModal"
-            :src="imageUrl+(video&&imgIndex==0)?'?x-oss-process=image/resize,w_690,h_400/watermark,size_20,text_5Zac5Lmw5bGL,color_ffffff':''"
+            :src="imageUrl+((video&&imgIndex==0)?'?x-oss-process=image/resize,w_690,h_400/watermark,size_20,text_5Zac5Lmw5bGL,color_ffffff':'')"
           >
         </div>
         <div class="play-dialog" v-if="video&&imgIndex==0" @click="playVideo">
@@ -199,10 +199,10 @@ export default {
     position: absolute;
     background-color: rgba(0, 0, 0, .6);
     border-radius: 4px;
-    padding: 5px 10px;
+    padding: 3px 6px;
     color: #ffffff;
-    font-size: 20px;
-    right: 20px;
+    font-size: 12px;
+    right: 48%;
     bottom:10px;
 }
 .play-dialog{
