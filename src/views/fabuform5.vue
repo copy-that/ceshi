@@ -155,7 +155,7 @@
       </ul>
       <!-- 新加视频 -->
       <ul class="fabu_list" style="border:none;margin:0px auto">
-        <li class="name" style="width:100%">上传房源视频:</li>
+        <li class="name" style="width:100%">上传房源视频(选填):</li>
       </ul>
       <ul class="fabu_up">
         <li class="upbtn">
